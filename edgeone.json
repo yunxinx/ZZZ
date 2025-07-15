@@ -1,49 +1,48 @@
 {
-    "nodeVersion": "22.16.0",
-    "headers": [
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
         {
-            "source": "/*",
-            "headers": [
-                {
-                    "key": "X-Frame-Options",
-                    "value": "DENY"
-                },
-                {
-                    "key": "Cache-Control",
-                    "value": "max-age=7200"
-                }
-            ]
+          "key": "X-Frame-Options",
+          "value": "DENY"
         },
         {
-            "source": "/static/*",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "s-maxage=10000, max-age=31536000"
-                },
-                {
-                    "key": "Pages-Cache-Control",
-                    "value": "s-maxage=10000"
-                }
-            ]
-        },
-        {
-            "source": "/*.css",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "s-maxage=10000, max-age=31536000"
-                }
-            ]
-        },
-        {
-            "source": "/*.js",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "s-maxage=10000, max-age=31536000"
-                }
-            ]
+          "key": "Cache-Control",
+          "value": "max-age=7200"
         }
-    ]
+      ]
+    },
+    {
+      "source": "/static/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=10000, max-age=31536000"
+        },
+        {
+          "key": "Pages-Cache-Control",
+          "value": "s-maxage=10000"
+        }
+      ]
+    },
+    {
+      "source": "/*.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=10000, max-age=31536000"
+        }
+      ]
+    },
+    {
+      "source": "/*.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=10000, max-age=31536000"
+        }
+      ]
+    }
+  ]
 }
