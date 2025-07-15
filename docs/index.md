@@ -1,46 +1,32 @@
 ---
-title: Welcome to Quartz 4
+title: 欢迎 & 介绍
+description: 网站的首页
 ---
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+## 前言
 
-## 🪴 Get Started
+老实说，其实[主站](https://134257.xyz)本身就是“博客”类型的，已有分类和标签功能，其实没必要再新开一个网站界面。
 
-Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have this installed on your machine before continuing.
+不过我还是开了……
 
-Then, in your terminal of choice, enter the following commands line by line:
+这个网站主要用来存放一些零散内容，比如小技巧或者备忘录。这些内容零散程度更高，不太适合放在主站。主站上的内容基本都是较为完整的，虽然各篇文章之间联系不大，但整体都比较完善。
 
-```shell
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
-npm i
-npx quartz create
-```
+因此，这里发布的内容不一定完整，但我会做好分类，把相关内容归到一起，既方便自己查找，也更易于阅读。
 
-This will guide you through initializing your Quartz with content. Once you've done so, see how to:
+此外，这里和主站差别也很大。主站我禁用了左侧栏，更突出“博客”的功能性。但这里没有这样做，可以方便地在左侧预览和查找需要的内容，整体上更像一个带索引的小笔记本，更便于阅读。
 
-1. [[authoring content|Writing content]] in Quartz
-2. [[configuration|Configure]] Quartz's behaviour
-3. Change Quartz's [[layout]]
-4. [[build|Build and preview]] Quartz
-5. Sync your changes with [[setting up your GitHub repository|GitHub]]
-6. [[hosting|Host]] Quartz online
+我还打算将来某个时候，再开一个单独的网站，用来存放可以成书的文章集合，类似常见的“文档”“手册”“教程”什么的，这样分类整理后，便于针对某个主题进行深入阅读（这是个计划，但工作量不小，完成时间不确定）。
 
-If you prefer instructions in a video format you can try following Nicole van der Hoeven's
-[video guide on how to set up Quartz!](https://www.youtube.com/watch?v=6s6DT1yN4dw&t=227s)
+最后，整个站点（包括主站）都使用了腾讯云的 EdgeOne 加速服务（但是环大陆加速，因为没有备案），国内访问可能会慢一些，但目前来看，比以前用的 CloudFlare 免费 CDN 效果好多了。
 
-## 🔧 Features
+或许这里就是我的一方小园，疏疏种花草，静待有缘人来。
 
-- [[Obsidian compatibility]], [[full-text search]], [[graph view]], [[wikilinks|wikilinks, transclusions]], [[backlinks]], [[features/Latex|Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], [[i18n|internationalization]], [[comments]] and [many more](./features/) right out of the box
-- Hot-reload on configuration edits and incremental rebuilds for content edits
-- Simple JSX layouts and [[creating components|page components]]
-- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
-- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
+> 补充一下，这个网站也是不支持评论功能的，而且图片也不支持点击放大，也不支持过长代码折叠等主站才有的功能
+>
+> 就是一个简单、纯粹的笔记类网站了
+>
+> 如果需要留言什么的（我确实是没有去做那个单独的评论功能了，虽然有现成的项目，很快就可以搭建实现），可以移步至主站的 “关于” 界面进行留言即可
 
-For a comprehensive list of features, visit the [features page](./features/). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
+## 重大更新日志
 
-### 🚧 Troubleshooting + Updating
-
-Having trouble with Quartz? Try searching for your issue using the search feature. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
-
-If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t).
+- **2025-07-15**：网站正式上线，添加了一个首页和两个文章（GitHub Copilot 配置 MCP、使用 WSL2 的一些注意事项）
