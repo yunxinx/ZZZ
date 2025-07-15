@@ -29,4 +29,4 @@ description: 网站的首页
 
 ## 重大更新日志
 
-- **2025-07-15**：网站正式上线，添加了一个首页和两个文章（GitHub Copilot 配置 MCP、使用 WSL2 的一些注意事项）
+- **2025-07-15**：网站正式上线，添加了一个首页和三个文章（GitHub Copilot 配置 MCP、使用 WSL2 的一些注意事项、1Password 接管 SSH 验证和 Commit 签名）
