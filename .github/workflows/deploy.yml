@@ -22,7 +22,7 @@ jobs:
         run: npm install
       
       - name: Build project
-        run: npx quartz build
+        run: npx quartz build -d docs
       
       - name: Deploy to EdgeOne Pages
         run: npx edgeone pages deploy ./public -n some-notes -t ${{ secrets.EDGEONE_API_TOKEN }}

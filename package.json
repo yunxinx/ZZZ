@@ -4,12 +4,12 @@
   "private": true,
   "version": "4.5.1",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "yuewei",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://134257.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/yunxinx/ZZZ.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
