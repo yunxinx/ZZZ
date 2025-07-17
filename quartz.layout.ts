@@ -55,10 +55,10 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes({
+    Component.DesktopOnly(Component.RecentNotes({
       title: "Recent writing",
       limit: 3
-    })
+    }))
   ],
   right: [
     // 移除掉右侧的关系图谱组件
@@ -84,6 +84,10 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.DesktopOnly(Component.RecentNotes({
+      title: "Recent writing",
+      limit: 3
+    }))
   ],
   right: [],
 }
