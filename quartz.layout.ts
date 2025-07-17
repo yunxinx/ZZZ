@@ -17,10 +17,7 @@ export const sharedPageComponents: SharedLayout = {
         strict: true,
         reactionsEnabled: true,
         inputPosition: 'top',
-        lang: 'zh-CN',
-        lightTheme: 'light',
-        darkTheme: 'dark',
-        themeUrl: 'https://notes.134257.xyz/static/giscus'
+        lang: 'zh-CN'
       }
     }),
   ],
