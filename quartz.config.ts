@@ -13,9 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "umami",
-      websiteId: "29642ef3-d0af-46a0-b15a-6269b9a2280b",
-      host: "https://umami.134257.xyz",
+      provider: "clarity",
+      projectId: "sfpf493czc",
     },
     locale: "zh-CN",
     baseUrl: "notes.134257.xyz",
@@ -31,7 +30,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#f1f1f1ff",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
@@ -42,7 +41,7 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "#1b1b1f",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",

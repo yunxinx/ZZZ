@@ -35,9 +35,8 @@ https://github.com/Minidoracat/mcp-feedback-enhanced
 
 > 如果这个部分的图片较为模糊，是正常的，这个教程最先在 L 站上发布，然后我自己重新复制了一份到这里来作为存档的（反正都是我写的，我自己网站留一份也很合理吧）。相较于 L 站上面的我写的版本，这里的内容仅仅是图片糊了一些，但是步骤我做了额外的说明，更为详细和准确
 >
-> 如果你想要看图片更为清楚的教程和说明，可以移步至 L 站：
+> 如果你想要看图片更为清楚的教程和说明，可以移步至 L 站[原帖](https://linux.do/t/topic/694193/278?u=yuewei)
 >
-> https://linux.do/t/topic/694193/278?u=yuewei
 
 最终效果图：
 
@@ -45,13 +44,13 @@ https://github.com/Minidoracat/mcp-feedback-enhanced
 
 ![图二](assets/cbc2908a0471cc37ac46184f767f16dd82c5bd7d_2_278x250.png)
 
-![图三](assets/d4895d8be94f18c9e3e0663f11f45bae4b102c2c_2_517x168.png)
+<img src="assets/d4895d8be94f18c9e3e0663f11f45bae4b102c2c_2_517x168.png" alt="图三" style="zoom:75%;" />
 
 上面这些都是一个对话中的 MCP 使用截图，在一次对话中至少调用了五六次该 MCP，且 VSCode 可以自己调整调用的次数上限（我从 25 次改到了 30 次，其实哪怕到了上限也可以继续使用工具，不会额外消耗次数）
 
 配置方式也很简单，只需要打开命令面板：
 
-![图片四](assets/b3a8b66c4759b454e1471bac8956fdfe439d67a4_2_517x148.png)
+<img src="assets/b3a8b66c4759b454e1471bac8956fdfe439d67a4_2_517x148.png" alt="图片四" style="zoom:75%;" />
 
 按照自己的情况选择（我是远程连接的所以我选择第一个，如果非远程，则选择第二个即可）
 
@@ -67,21 +66,21 @@ https://github.com/Minidoracat/mcp-feedback-enhanced
 
 最后配置好指令（指令可以理解为全局的提示词，对每个新对话都生效），在里面添加好提示词（我直接照搬 Cursor 上的）：
 
-![图片七](assets/916da72e4103f8eb0e283c7e852d5bf919a3a142.png)
+<img src="assets/916da72e4103f8eb0e283c7e852d5bf919a3a142.png" alt="图片七" style="zoom: 50%;" />
 
-![图片八](assets/01b88bd63e670a3e09066b32217fc3fbdff0f691_2_690x492.jpeg)
+<img src="assets/01b88bd63e670a3e09066b32217fc3fbdff0f691_2_690x492.jpeg" alt="图片八" style="zoom:70%;" />
 
 最后配置好必要的端口转发（因我是远程的，本地使用不需要）：
 
-![图片九](assets/406779438bda225f1c82ec2b57fd670d583ff26b_2_517x120.png)
+<img src="assets/406779438bda225f1c82ec2b57fd670d583ff26b_2_517x120.png" alt="图片九" style="zoom:65%;" />
 
 注意要先启动自己配置好的 MCP（可以在 “扩展” 中右键启用，一般会默认启动的）：
 
-![图片十](assets/7322237b3a85c7aef9830f57a11bf31145cd7557_2_327x374.png)
+<img src="assets/7322237b3a85c7aef9830f57a11bf31145cd7557_2_327x374.png" alt="图片十" style="zoom:75%;" />
 
 配置完毕后在 Agent 模式下进行对话，就可以看到效果（建议使用指令遵循度高的模型，比如 Claude 模型，效果最好）：
 
-![图片十一](assets/625430e67f4cb4e31c728f160ab839dc794ec7f4_2_517x303.png)
+<img src="assets/625430e67f4cb4e31c728f160ab839dc794ec7f4_2_517x303.png" alt="图片十一" style="zoom:70%;" />
 
 点击继续，然后我们本地浏览器访问我们转发的端口：
 

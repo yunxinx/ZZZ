@@ -5,7 +5,25 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'yunxinx/ZZZ',
+        repoId: 'R_kgDOPMnJqA',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOPMnJqM4CtD2m',
+        mapping: 'pathname',
+        strict: true,
+        reactionsEnabled: true,
+        inputPosition: 'top',
+        lang: 'zh-CN',
+        lightTheme: 'light',
+        darkTheme: 'dark',
+        themeUrl: 'https://notes.134257.xyz/static/giscus'
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "Home Site": "https://134257.xyz",
@@ -40,6 +58,10 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.RecentNotes({
+      title: "Recent writing",
+      limit: 3
+    })
   ],
   right: [
     // 移除掉右侧的关系图谱组件
